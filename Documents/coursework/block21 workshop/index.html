@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Party Organizer</h1>
+    <ul id="parties">
+
+    </ul>
+        <!-- Party list will be displayed here -->
+    
+    <h2>Add New Party</h2>
+    <form id="addParty">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" required>
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea>
+        <button type="submit">Add Party</button>
+    </form>
+</div>
+<div class="container">
+  <!-- Data will be rendered here -->
+</div>
+</body>
+</html>
